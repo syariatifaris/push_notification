@@ -1,0 +1,25 @@
+app:
+  name: "push_notif" # application name
+  env: development # application environment ("development"|"staging"|"production")
+  debug: false
+  timezone: Asia/Jakarta # timezone for time function (eg : "Asia/Jakarta")
+
+redis:
+  host: "localhost:6379"
+  db: 0
+
+mongo:
+  database_name: "push_notification"
+  host: ["localhost:27017"]
+  username: "root"
+  password: "example"
+
+serve:
+  port: 8082
+  write_timeout: 5
+  read_timeout: 5
+
+
+fcm:
+  api_key: "AAAAsaA8TRU:APA91bHEi0TnzwRCFC9GFUHB0Gkt2VSNFyg4E53lWL1kWhQ63gR9X0Z_Vu6C6STnyhn2mYXUCnEYEd7z5bpO0o03wD_QwAF3fCeTli8lmDIcPpoX62TRDnYp-_5p9taEmH2KdaVKDv16"
+
